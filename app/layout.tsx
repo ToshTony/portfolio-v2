@@ -9,7 +9,7 @@ import "./globals.css";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tosh Tony | Creative Developer",
+  title: "ToshTony | Creative Developer",
   description: "Software Engineer and Creative Developer.",
 };
 

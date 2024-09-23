@@ -1,6 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
+
+import rentalsimg from "@/public/rentals-pic.png";
+
 import ozdevsImg from "@/public/ozdevs-two.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
@@ -72,22 +75,25 @@ export const experiencesData = [
   },
 ] as const;
 
+
+
+// projects
 export const projectsData = [
   {
-    title: "CryptoCrowd",
+    title: "Rentals App",
     description:
-      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
+      "A user-friendly app that simplifies event equipment rentals for any occasion, including weddings, parties, and corporate events. Users can browse an extensive catalog of items like catering supplies, sound systems, lighting, and decor. The app offers advanced search and filtering options to quickly find what they need. Users can receive instant quotes and check availability, choose from curated rental packages, and read reviews from other customers.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     icons: [
-      "logos:aws",
+      "logos:laravel",
       "logos:javascript",
       "logos:react",
       "logos:bootstrap",
       "logos:express",
     ],
-    imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    imageUrl: rentalsimg,
+    githubLink: "https://github.com/ToshTony/RentalApp",
+    demoLink: "https://toshtony.github.io/RentalApp/",
   },
   {
     title: "OzDevs",
