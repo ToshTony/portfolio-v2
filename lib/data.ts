@@ -94,6 +94,7 @@ export const projectsData = [
     imageUrl: rentalsimg,
     githubLink: "https://github.com/ToshTony/RentalApp",
     demoLink: "https://toshtony.github.io/RentalApp/",
+    urlLink: "https://toshtony.github.io/RentalApp/",
   },
   {
     title: "OzDevs",
