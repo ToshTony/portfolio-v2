@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 
 import rentalsimg from "@/public/rentals-pic.png";
+import kitchenpic from "@/public/kitchen-pic.png";
 
 import ozdevsImg from "@/public/ozdevs-two.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
@@ -97,9 +98,9 @@ export const projectsData = [
     urlLink: "https://toshtony.github.io/RentalApp/",
   },
   {
-    title: "OzDevs",
+    title: "Catering Website",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
+      "Catering Company website designed for seamless event planning and catering services. It includes a stunning portfolio of past events, interactive menu to create customized dining options, with prices.It inlcudes a booking system that simplifies securing your date, while 24/7 customer support to ensure you have assistance whenever needed.",
     tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
     icons: [
       "logos:laravel",
@@ -108,9 +109,10 @@ export const projectsData = [
       "devicon:tailwindcss",
       "logos:mysql",
     ],
-    imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    imageUrl: kitchenpic,
+    urlLink: "https://toshtony.github.io/Wangecis-Kitchen/",
+    demoLink: "https://toshtony.github.io/Wangecis-Kitchen/",
+    githubLink: "https://github.com/ToshTony/Wangecis-Kitchen",
   },
   {
     title: "Company Asset Trading",
