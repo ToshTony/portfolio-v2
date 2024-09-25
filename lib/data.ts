@@ -4,6 +4,7 @@ import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 
 import rentalsimg from "@/public/rentals-pic.png";
 import kitchenpic from "@/public/kitchen-pic.png";
+import gifthealth from "@/public/gifthealth.png";
 
 import ozdevsImg from "@/public/ozdevs-two.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
@@ -115,13 +116,16 @@ export const projectsData = [
     githubLink: "https://github.com/ToshTony/Wangecis-Kitchen",
   },
   {
-    title: "Company Asset Trading",
+    title: "HealthCare Services Website",
     description:
-      "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
+      "A cutting-edge platform designed to transform patient access to healthcare. With an intuitive interface, users can easily navigate a comprehensive range of services and book appointments online with instant confirmation. The secure patient portal offers access to medical records, lab results, and personalized health resources, empowering users to manage their health effectively.",
     tags: ["Java", "MariaDB", "Swing"],
-    icons: ["logos:java", "logos:mariadb-icon"],
-    imageUrl: assetTradingImg,
-    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
+    icons: [
+      "logos:java",
+      "logos:mariadb-icon"
+    ],
+    imageUrl: gifthealth,
+    urlLink: "https://gifthealthcareservices.com/",
   },
   // {
   //   title: "Euphorus",
