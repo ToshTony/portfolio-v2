@@ -200,6 +200,10 @@ export const skillsData = [
     icon: "logos:react",
   },
   {
+    name: "NextJs",
+    icon: "logos:nextjs-icon",
+  },
+  {
     name: "Node.js",
     icon: "logos:nodejs-icon",
   },
@@ -220,6 +224,10 @@ export const skillsData = [
     icon: "logos:python",
   },
   {
+    name: "Django",
+    icon: "logos:django-icon",
+  },
+  {
     name: "Java",
     icon: "logos:java",
   },
@@ -236,6 +244,10 @@ export const skillsData = [
     icon: "logos:sass",
   },
   {
+    name: "Bootstrap",
+    icon: "logos:bootstrap",
+  },
+  {
     name: "Git",
     icon: "logos:git-icon",
   },
@@ -244,12 +256,28 @@ export const skillsData = [
     icon: "logos:mysql",
   },
   {
+    name: "PostgreSQL",
+    icon: "logos:postgresql",
+  },
+  {
+    name: "Sqlite",
+    icon: "logos:sqlite",
+  },
+  {
+    name: "Microsoft SQL Server",
+    icon: "devicon-plain:microsoftsqlserver-wordmark",
+  },
+  {
     name: "Linux",
     icon: "flat-color-icons:linux",
   },
   {
     name: "AWS",
     icon: "logos:aws",
+  },
+  {
+    name: "GCP",
+    icon: "logos:google-cloud",
   },
   {
     name: "Docker",
@@ -263,4 +291,13 @@ export const skillsData = [
     name: "Shopify",
     icon: "logos:shopify",
   },
+  {
+    name: "CodeIgniter",
+    icon: "logos:codeigniter-icon",
+  },
+  {
+    name: "Blender",
+    icon: "logos:blender",
+  },
+
 ] as const;
