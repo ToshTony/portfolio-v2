@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Software Developer",
     location: "Freelance",
     description:
-      "Full-Stack Software Development for businesses and clients including website and app development as well as mainteneance and upgrades/updates.",
+      "Full-Stack Software Development for businesses and clients including website and app development as well as mainteanance and upgrades/updates.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2021 - February 2022",
   },
