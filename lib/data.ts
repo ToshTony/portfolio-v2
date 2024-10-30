@@ -44,10 +44,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "M3 Digital - Contract",
+    title: "Software Developer",
+    location: "Freelance",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+      "Full-Stack Software Development for businesses and clients including website and app development as well as mainteneance and upgrades/updates.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2021 - February 2022",
   },
