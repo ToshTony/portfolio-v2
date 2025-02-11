@@ -10,3 +10,5 @@ git config --list
 
 resend email api intergration with the python site
 create ts api
+
+learn some ts, even if it is a crash course, stay sharp
