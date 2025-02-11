@@ -7,3 +7,6 @@ git config --list
 
 
 - finish up on this porfolio, to be included in the list
+
+resend email api intergration with the python site
+create ts api
